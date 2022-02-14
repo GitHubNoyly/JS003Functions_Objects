@@ -7,21 +7,21 @@
 */
 /**
  * Task
- * Declare a function named divideNum that takes two numbers as parameters. Divide the first number by the second number and
+ * Declare a function named 'divideNum' that takes two numbers as parameters. Divide the first number by the second number and
  * return the result.
  *
  * @param  	dividend 	number being divided
  * @param 	divisor		number the dividend is divided by
  * @return	quotient (result of division).
  */
-function divideNum(dividend, divisor){
+//function ??replace this with function name??{
 
 	//return result
-}
+//}
 
 /**
  * Task
- * Write a function named returnArray that accepts 3 car makes and returns them in an array.
+ * Write a function named 'returnArray' that accepts 3 car makes and returns them in an array.
  * Declare the array using LITERAL notation ie: not object notation.
 	 * That means do not use new Array()
 	 * see examples here https://www.w3schools.com/js/js_arrays.asp
@@ -31,13 +31,13 @@ function divideNum(dividend, divisor){
  * @param 	makeB	make of car
  * @return	Array of car makes (strings).
  */
-function returnArray(makeA, makeB, makeC){
+//function ??replace this with function name??{
 	
 	//declare the array using LITERAL notation
 	
 
 	//return carMakes;
-}
+//}
 
 /**
  * Task
@@ -51,12 +51,12 @@ function returnArray(makeA, makeB, makeC){
  * @param 	email		Students email address
  * @return	Student object
  */
-function student(firstname, lastname, email){
+//function ??replace this with function name??{
 	
 	//declare the student object using LITERAL notation
 	
 	//return student;
-}
+//}
 
 
 /******************************************************************************************************
@@ -65,11 +65,11 @@ function student(firstname, lastname, email){
 /******************************************************************************************************/
 /**
  * Task
- * Write a function named strungOut, that takes a string and a separate substring and returns and object, called stringInfo, 
+ * Write a function named strungOut, that takes a string and a separate substring and returns an object, called stringInfo, 
  * that contains:
- * a property named original containing the string
- * a property called caps containing the string in uppercase
- * a property called subIndex containing the index value of the location of the substring in the string.
+ * a property named 'original' containing the string
+ * a property called 'caps' containing the string in uppercase
+ * a property called 'subIndex' containing the index value of the location of the substring in the string.
  *
  * @param  	strString 		Original string
  * @param  	strSubString 	A substring contained within the original string.
@@ -171,7 +171,7 @@ function createHotels() {
  ***************************************
 
  /**
- * TASK : Write a function called addSwimmingPool. It should take in an array of hotel objects as a parameter. 
+ * TASK : Write a function called 'addSwimmingPool'. It should take in an array of hotel objects as a parameter. 
  * Add a 'swimmingPool' property to each hotel, and set it to true, for hotels which have more than 250 rooms. 
  * Set it to false for the others.
  * Properties available in each hotel are:-
