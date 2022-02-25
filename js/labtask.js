@@ -27,8 +27,8 @@
 	 * see examples here https://www.w3schools.com/js/js_arrays.asp
  *
  * @param  	makeA 	make of car
- * @param 	makeB	make of car
- * @param 	makeB	make of car
+ * @param 	makeB	  make of car
+ * @param 	makeC   make of car
  * @return	Array of car makes (strings).
  */
 //function ??replace this with function name??{
@@ -41,21 +41,22 @@
 
 /**
  * Task
- * Write a function named student that has firstname, lastname and email parameters and returns an object 
+ * Write a function named student that has forname, surname and mail parameters and returns an object 
  * containing the passed parameters as properties only. 
+ * The object should have firtsname, lastname and email properties set with the passed parameters.
  * Use literal notation to declare your student object. 
  * See https://www.w3schools.com/js/js_object_definition.asp
  *
- * @param  	firstname 	Students first name
- * @param 	lastname	Students last name
- * @param 	email		Students email address
- * @return	Student object
+ * @param  	forname 	Students first name
+ * @param 	surname	  Students last name
+ * @param 	mail		    Students email address
+ * @return	Student     Object
  */
 //function ??replace this with function name??{
 	
-	//declare the student object using LITERAL notation
+	//declare the Student object using LITERAL notation
 	
-	//return student;
+	//return Student;
 //}
 
 
