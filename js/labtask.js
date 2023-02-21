@@ -52,12 +52,12 @@ function returnArray(carMake1, carMake2, carMake3){
  * @param 	mail		    Students email address
  * @return	Student     Object
  */
-//function ??replace this with function name??{
+function student(forname, surname, mail){
 	
-	//declare the Student object using LITERAL notation
+	const Student = {firstname: forname, lastname: surname, email: mail};
 	
-	//return Student;
-//}
+	return Student;
+}
 
 
 /******************************************************************************************************
