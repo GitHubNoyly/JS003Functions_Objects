@@ -14,10 +14,11 @@
  * @param 	divisor		number the dividend is divided by
  * @return	quotient (result of division).
  */
-//function ??replace this with function name??{
-
-	//return result
-//}
+function divideNum(num1, num2){
+  var result;
+  result = num1/num2;
+	return result
+}
 
 /**
  * Task
@@ -43,7 +44,7 @@
  * Task
  * Write a function named student that has forname, surname and mail parameters and returns an object 
  * containing the passed parameters as properties only. 
- * The object should have firtsname, lastname and email properties set with the passed parameters.
+ * The object should have firtsname, lastname and email properties set using the passed parameters.
  * Use literal notation to declare your student object. 
  * See https://www.w3schools.com/js/js_object_definition.asp
  *
