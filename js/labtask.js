@@ -100,10 +100,18 @@ function strungOut(strString, strSubString){
  * @return 	Object containing information about a string.
  */
 function strungOut2(strString, strSubString){
+  
+  const stringInfo={
+    original: strString,
+    getUpper: function(){
+      return strString.toUpperCase();
+    },
+    getIndex: function(){
+      return strString.indexOf(strSubString);
+    }
+  };
 	
-	//declare the stringInfo object using LITERAL notation
-	
-	//return stringInfo;
+	return stringInfo;
 }
 
 /******************************************************************************************************
@@ -128,9 +136,17 @@ function strungOut2(strString, strSubString){
 
  function Hotel(name, totalRooms, bookedRooms){
 
+   const hotel = {
+     hotelName: name,
+     totalRoomsInHotel: totalRooms,
+     roomsBooked: bookedRooms,
+     available: function(){
+       return totalRooms - bookedRooms;
+     }
+   };
 	//declare the hotel object using LITERAL notation
 	 
-	//return hotel;
+	return hotel;
 }
 
 /**
@@ -148,11 +164,31 @@ function strungOut2(strString, strSubString){
 function createHotels() {
 	
 	//declare the hotel objects by calling the 'Hotel' function
+  const largestHotel = {
+    name: "The Grand Hotel",
+    totalRooms: 421,
+    bookedRooms: 398
+  }
+
+  const middleHotel = {
+    name: "The Seaview Hotel",
+    totalRooms: 222,
+    bookedRooms: 189
+  }
+  
+  const smallestHotel = {
+    name: "The Quayside Hotel",
+    totalRooms: 84,
+    bookedRooms: 36
+  }
+
 	
 	//Use console.table to view and check the the object contents 
 	
 	//return an array containing the three hotels in the chain
-	//return chainOfHotels;
+  const chainOfHotels = [largestHotel, middleHotel, smallestHotel];
+  
+	return chainOfHotels;
 }
 
 /**
