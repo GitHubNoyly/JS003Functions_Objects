@@ -78,9 +78,13 @@ function student(forname, surname, mail){
  */
 function strungOut(strString, strSubString){
 
-	//declare the stringInfo object using LITERAL notation
+  const stringInfo={
+    original: strString,
+    caps: strString.toUpperCase(),
+    subIndex: strString.indexOf(strSubString)
+  };
 	
-	//return stringInfo;
+	return stringInfo;
 }
 
 /**
