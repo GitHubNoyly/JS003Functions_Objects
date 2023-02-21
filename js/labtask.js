@@ -32,13 +32,12 @@ function divideNum(num1, num2){
  * @param 	makeC   make of car
  * @return	Array of car makes (strings).
  */
-//function ??replace this with function name??{
-	
-	//declare the array using LITERAL notation
-	
+function returnArray(carMake1, carMake2, carMake3){
 
-	//return carMakes;
-//}
+	const carMakes = [carMake1, carMake2, carMake3];
+
+	return carMakes;
+}
 
 /**
  * Task
